@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url("https://db.onlinewebfonts.com/t/9f5af5bd3b02c9efd39b88ea75ddad47.eot");
+    src: url("https://db.onlinewebfonts.com/t/9f5af5bd3b02c9efd39b88ea75ddad47.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/9f5af5bd3b02c9efd39b88ea75ddad47.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/9f5af5bd3b02c9efd39b88ea75ddad47.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/9f5af5bd3b02c9efd39b88ea75ddad47.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/9f5af5bd3b02c9efd39b88ea75ddad47.svg#Helvetica")format("svg");
+}
+
+
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    background-color: #F0F0F5;
+    margin: 0;
+}
+
+body header {
+    width: 60%;
+    margin: 0px auto;
+    position: relative;
+    z-index: 1;
+}
+
+header div {
+    display: inline-block;
+    left: 0;
+    padding-top: 16px;
+}
+
+header div a {
+    color: #f36f21;
+    text-decoration: none;
+}
+
+header div a:hover {
+    font-weight: bolder;
+}
+
+header div i.fa-solid.fa-dumbbell {
+    color: #f36f21;
+    padding-right: 3px;
+}
+
+header nav {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+nav ul li a {
+    text-align: center;
+    text-decoration: none;
+    color: #f36f21;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+body main {
+    width: 60%;
+    margin: 0px auto;
+}
+
+body main section:nth-child(1) {
+    background-image: url("./picture.jpg");
+    background-size: cover;
+    height: 585px;
+}
+
+body main section:nth-child(1) h1 {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 42%;
+    font-size: 35px;
+}
+
+body main section:nth-child(1) h1 span {
+    color: #f36f21;
+}
+
+body main section:nth-child(1) button {
+    position: relative;
+    top: 45%;
+    left: 43%;
+    font-size: 20px;
+    background-color: #f36f21;
+    color: white;
+    border: none;
+    padding: 7px 15px 9px 15px;
+    font-family: "Helvetica";
+}
+
+body main section:nth-child(1) button:hover {
+    background-color: white;
+    color: #f36f21;
+    cursor: pointer;
+}
+
+body main section:nth-child(2) article {
+    display: inline-block;
+    background-color: #f36f21;
+    color: white;
+    width: 259px;
+    padding: 24px 61px;
+    text-align: justify;
+}
+
+body main section:nth-child(2) article h3 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+body main section:nth-child(2) article p {
+    font-size: 89%;
+    padding-top: 10px;
+}
+
+body footer {
+    width: 60%;
+    margin: 0px auto;
+}
+
+footer p {
+    position: relative;
+    padding-top: 23px;
+    font-size: 90%;
+    display: inline-block;
+}
+
+footer > div {
+    display: inline-block;
+    position: relative;
+    left: 498px;
+}
+
+footer div div {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+footer div a i.fa-brands {
+    color: black;
+}
