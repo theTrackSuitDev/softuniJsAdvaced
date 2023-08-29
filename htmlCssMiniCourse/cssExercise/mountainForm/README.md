@@ -1,0 +1,1 @@
+[Page Preview](https://htmlpreview.github.io/?https://github.com/theTrackSuitDev/softuniJsAdvaced/blob/main/htmlCssMiniCourse/cssExercise/mountainForm/index.html)
