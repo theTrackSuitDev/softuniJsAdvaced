@@ -1,0 +1,146 @@
+body {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.left p {
+    font-style: italic;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 37px;
+}
+
+.left a {
+    text-decoration: none;
+    color: white;
+}
+
+.left a:hover {
+    text-decoration: underline;
+}
+
+.left {
+    background-image:
+        linear-gradient(to bottom, rgba(136, 141, 172, 0.29), rgba(100, 73, 96, 0.72)),
+        url(./peak.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    color: white;
+}
+
+.left h1 {
+    font-size: 35px;
+    font-weight: bolder;
+    padding-bottom: 360px;
+}
+
+.right {
+    width: 400px;
+    height: 592px;
+    border: solid 4px #38082A;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right .form-fields {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    color: rgb(192, 192, 192);
+    margin-top: 105px;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 220px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding-left: 0;
+    padding-bottom: 2px;
+    font-family: inherit;
+}
+
+input:focus-within {
+    border: none;
+}
+
+input[type="password"]::placeholder {
+    font-size: 5px;
+    letter-spacing: 3px;
+}
+
+input[type="text"]::placeholder {
+    font-size: 26px;
+    color: grey;
+}
+
+label {
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+    color: grey;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-top: 20px;
+    width: 250px;
+}
+
+button {
+    padding: 10px 25px;
+    background-color: #38082A;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #38082A;
+    font-family: inherit;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 2px solid #38082A;
+    background-color: white;
+    color: #38082A;
+}
+
+.button p {
+    font-size: 19px;
+    margin: 8px;
+}
+
+.button p a {
+    text-decoration: none;
+    font-size: 19px;
+    color: #38082A;
+}
+
+.button p a:hover {
+    text-decoration: underline;
+}
