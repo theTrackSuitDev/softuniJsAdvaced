@@ -7,8 +7,8 @@ function sumOfNums(one, two) {
     for (let i = firstNum; i <= secondNum; i++) {
         sum += i;        
     }
-    
+
     console.log(sum);
 }
 
-sumOfNums('8', '8');
+sumOfNums('-8', '20');
