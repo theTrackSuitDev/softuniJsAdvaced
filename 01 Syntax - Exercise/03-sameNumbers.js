@@ -1,6 +1,6 @@
 function sameNumbers(num) {
     
-    numArray = num.toString().split('');
+    let numArray = num.toString().split('');
     let areSame = true;
     for (let i = 0; i < numArray.length - 1; i++) {
         const element = numArray[i];
