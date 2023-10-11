@@ -1,5 +1,5 @@
-let createCalculator = require('./07-addAndSubtract');
-let expect = require('chai').expect;
+const createCalculator = require('./07-addAndSubtract');
+const expect = require('chai').expect;
 
 describe('Create calculator object', () => {
     it('Should return object with add() property', () => {

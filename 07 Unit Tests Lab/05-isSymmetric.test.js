@@ -1,4 +1,4 @@
-let isSymmetric = require("./05-isSymmetric");
+const isSymmetric = require("./05-isSymmetric");
 const expect = require("chai").expect;
 
 describe("Array symmetry check with boolean value returned", () => {
