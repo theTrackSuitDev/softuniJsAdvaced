@@ -110,7 +110,7 @@ function solve() {
             document.querySelectorAll("#preview-list p")
         );
 
-        let itemText = `${headindEl.textContent} - ${parElements[0].textContent}/${parElements[1].textContent}/ ${parElements[2].textContent}/ ${parElements[3].textContent}`;
+        let itemText = `${headindEl.textContent} - ${parElements[0].textContent}/ ${parElements[1].textContent}/ ${parElements[2].textContent}/ ${parElements[3].textContent}`;
 
         collectionParagraph.textContent = itemText;
 
